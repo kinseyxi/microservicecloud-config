@@ -34,8 +34,6 @@ eureka:
   instance:
     instance-id: microservicecloud-dept8001      # 修改微服务名称
     prefer-ip-address: true                      # 设置ip地址访问
-
-
 info:
   app.name: atguigu-microservicecloud-springcloudconfig02
   company.name: www.atguigu.com
@@ -51,7 +49,7 @@ spring:
   thymeleaf:
     cache: false
   datasource:
-    url: jdbc:mysql://localhost:3306/cloudDB01?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/cloudDB02?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
     username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource         #当前数据源操作类型
@@ -73,8 +71,6 @@ eureka:
   instance:
     instance-id: microservicecloud-dept8001      # 修改微服务名称
     prefer-ip-address: true                      # 设置ip地址访问
-
-
 info:
   app.name: atguigu-microservicecloud-springcloudconfig02
   company.name: www.atguigu.com
